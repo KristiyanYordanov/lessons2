@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;
 
+// Class Estate !!
 class Estate
 {
 public:
@@ -94,8 +95,6 @@ int main()
 {
     Estate estates [2];
     Estate estate;
-
-
     for(int i=0; i<2; i++)
     {
         cout<<"Estate number: ";
@@ -117,7 +116,6 @@ int main()
     int plosht;
     cout<<"Tursete po vid ili po plosht< 0 za vid - 1 za plosht>\n";
     cin>>typeOrArea;
-
 
     if(typeOrArea == false)
     {
